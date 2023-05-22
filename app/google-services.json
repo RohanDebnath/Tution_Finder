@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775320732989",
+    "project_id": "tutionfinder2",
+    "storage_bucket": "tutionfinder2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775320732989:android:1ca770fd3f9b1166553154",
+        "android_client_info": {
+          "package_name": "com.example.tutionfinder2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775320732989-v76p4ijdiut1lhqp53g4jlfgvrejvs3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs3RpBBUrjIpvxRVRja57zBUEKSRErd3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775320732989-v76p4ijdiut1lhqp53g4jlfgvrejvs3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

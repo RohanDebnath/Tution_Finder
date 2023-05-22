@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ChooseLogin">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="366dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422"
+        app:cardBackgroundColor="#36D3B4B4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's the Student who are the pillars of future and the Teachers are the craftsmen of that pillar"
+                android:textSize="20dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:layout_marginTop="60dp"
+                android:id="@+id/Button_Student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:backgroundTint="@color/blueish"
+                android:drawableLeft="@drawable/ic_baseline_school_24"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Student"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/Button_Teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:backgroundTint="@color/blueish"
+                android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Teacher"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

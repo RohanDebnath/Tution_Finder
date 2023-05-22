@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@android:color/system_neutral2_100"
+        tools:targetApi="s">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/picture_frame"
+            android:id="@+id/Image_reieved"
+            />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:padding="8dp">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:layout_marginTop="8dp"
+              android:text="Full Name"
+              android:id="@+id/FullName_recieved"
+              android:textStyle="bold"
+              android:textSize="14dp"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:layout_marginTop="8dp"
+              android:text="Qualification"
+              android:id="@+id/Qualification_recieved"
+              android:textStyle="bold"
+              android:textSize="14dp"
+
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:layout_marginTop="8dp"
+              android:text="Subjects"
+              android:id="@+id/Subject_recieved"
+              android:textStyle="bold"
+              android:textSize="14dp"
+
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:layout_marginTop="8dp"
+              android:text="Fee Strcture"
+              android:id="@+id/Fee_recieved"
+              android:textStyle="bold"
+              android:textSize="14dp"
+
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:layout_marginTop="8dp"
+              android:text="Contact"
+              android:id="@+id/Contact_recieved"
+              android:textStyle="bold"
+              android:textSize="14dp"
+              />
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:text="Description of Teacher/Coaching"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Description"
+        android:id="@+id/Description_recieved"
+        android:textStyle="italic"
+        />
+    <Button
+        android:layout_marginStart="8dp"
+        android:id="@+id/quick_ChatBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Call Back"
+        android:backgroundTint="@color/blueish"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+       android:drawableLeft="@android:drawable/stat_notify_chat"
+        android:drawableTint="@color/black"
+        />
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
